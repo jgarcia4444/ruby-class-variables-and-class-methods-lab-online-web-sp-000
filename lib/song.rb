@@ -28,6 +28,7 @@ class Song
         unique_genre_arr << genre
       end
     end
+    unique_genre_arr
   end
 
 end
