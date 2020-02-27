@@ -23,7 +23,7 @@ class Song
 
   def self.genres
     unique_genre_arr = []
-    genres.each do |genre|
+    @@genres.each do |genre|
       if !unique_genre_arr.include?(genre)
         unique_genre_arr << genre
       end
