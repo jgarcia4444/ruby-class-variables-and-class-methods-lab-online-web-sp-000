@@ -39,7 +39,7 @@ class Song
         unique_artists << artist
       end
     end
-    
+
   end
 
 end
