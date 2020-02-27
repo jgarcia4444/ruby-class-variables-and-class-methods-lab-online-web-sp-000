@@ -32,7 +32,6 @@ class Song
   end
 
   def self.artists
-
     unique_artists = []
     @@artists.each do |artist|
       if !unique_artists.include?(artist)
@@ -42,4 +41,13 @@ class Song
     unique_artists
   end
 
+  def self.genre_count
+    genre_count_hash = {}
+    @@genres.each do |genre|
+      if !genre_count_hash.has_key?
+    end
+    
+  end
+
+  
 end
